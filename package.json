@@ -1,0 +1,38 @@
+{
+  "name": "backbone-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "es2016.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-helper-vue-jsx-merge-props": "^2.0.2",
+    "browserify": "^14.5.0",
+    "underscore": "^1.8.3",
+    "vueify": "^9.4.1",
+    "watchify": "^3.9.0"
+  },
+  "devDependencies": {
+    "babelify": "^8.0.0",
+    "browserify": "^14.5.0",
+    "concurrently": "^3.5.0",
+    "vueify": "^9.4.1",
+    "watchify": "^3.9.0"
+  },
+  "scripts": {
+    "test": "karma start --no-single-run",
+    "babel": "./node_modules/.bin/babel lib/index.js --out-file compiledes6.js",
+    "start": "node static_server.js",
+    "compile": "browserify -t vueify -e lib/index.js -o build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasselTrankos/backbone-vue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kasselTrankos/backbone-vue/issues"
+  },
+  "homepage": "https://github.com/kasselTrankos/backbone-vue#readme"
+}

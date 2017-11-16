@@ -1,0 +1,21 @@
+{
+  "name": "backbone-vue",
+  "description": "",
+  "main": "es2016.js",
+  "license": "ISC",
+  "homepage": "https://github.com/kasselTrankos/backbone-vue",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "^2.3.5",
+    "backbone": "^1.3.3",
+    "jquery": "^3.2.1",
+    "vue": "^2.5.4"
+  }
+}
